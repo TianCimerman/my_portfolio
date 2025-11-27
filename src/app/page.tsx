@@ -4,8 +4,8 @@
 
 import ClientVantaWrapper from '../components/ClientVantaWrapper'; // Import the new wrapper
 import Header from '../components/Header.jsx';
-import Intrudaction from '../components/intrudaction.jsx';
-import Intrudaction2 from '../components/intrudaction2.jsx';
+import Introduction from '../components/introduction.jsx';
+import Introduction2 from '../components/introduction2.jsx';
 import Projects from '../components/projects.jsx';
 import Contact from '../components/contact.jsx';
 
@@ -14,8 +14,8 @@ export default function HomePage() {
     // 1. Wrap your entire page content with the Client Wrapper
     <ClientVantaWrapper>
       <Header></Header>
-      <Intrudaction></Intrudaction>
-      <Intrudaction2></Intrudaction2>
+      <Introduction></Introduction>
+      <Introduction2></Introduction2>
       <Projects></Projects>
       <Contact></Contact>
 
