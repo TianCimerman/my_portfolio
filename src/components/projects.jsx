@@ -1,7 +1,6 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
-import Icon from '@/svg/Icon.svg';
 import Line from '@/svg/Line-2.svg';
 import Line2 from '@/svg/git-branch-productivity.svg';
 import { Open_Sans } from 'next/font/google';

@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import Image from 'next/image';
+
 import { Orbitron } from 'next/font/google';
 import Line from '@/svg/line1.svg';
 
