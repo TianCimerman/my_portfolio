@@ -2,13 +2,15 @@
 import React from 'react';
 
 import { Orbitron } from 'next/font/google';
-import Line from '@/svg/line1.svg';
+
 
 const orbitfont = Orbitron({
   subsets: ['latin'],
   weight: ['400', '700'],
   variable: '--font-orbit',
 });
+
+const Line = () => <div>Line</div>;
 
 export default function Introduction() {
   return (

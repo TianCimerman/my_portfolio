@@ -1,4 +1,4 @@
-'use client';
+
 
 // 🚨 Remove 'import dynamic from 'next/dynamic';' and the VantaBackground declaration
 
