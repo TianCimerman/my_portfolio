@@ -48,7 +48,7 @@ export default function Introduction() {
           I’m a student who enjoys creating and learning through personal projects.
         </p>
 
-        <Line className="w-8 md:w-7 h-auto  relative top-10 sm:mr-200 hidden md:block" />
+
 
       </div>
 

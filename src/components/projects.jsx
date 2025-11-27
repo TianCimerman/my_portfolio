@@ -11,7 +11,7 @@ const openSans = Open_Sans({
   weight: ['400', '700'], // regular and bold
 });
 
-export default function Introduction() {
+export default function Projects() {
   return (
     <div className="md:bg-[rgb(13,17,23)] bg-opacity-30 p-5 w-7/7 md:w-3/5 mx-auto ">
 

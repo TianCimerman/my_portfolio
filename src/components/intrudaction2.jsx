@@ -11,7 +11,7 @@ const openSans = Open_Sans({
   weight: ['400', '700'],
 });
 
-export default function Introduction() {
+export default function Introduction2() {
   return (
     // Hide entire section on phones
     <div className="hidden sm:block bg-[rgb(13,17,23)] bg-opacity-30 pb-20 w-full md:w-3/5 mx-auto">

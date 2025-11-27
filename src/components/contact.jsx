@@ -18,7 +18,7 @@ const openSans = Open_Sans({
   weight: ['400', '700'],
 });
 
-export default function Introduction() {
+export default function Contact() {
   return (
     <div className={orbitfont.variable}>
 
