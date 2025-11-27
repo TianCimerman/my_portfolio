@@ -1,16 +1,14 @@
-"use client";
-import React from 'react';
-import { ReactComponent as Line } from '@/svg/line1.svg';
-import { Orbitron } from 'next/font/google';
+'use client'; // ✅ Mark this as a Client Component
 
+import React from 'react';
+import { Orbitron } from 'next/font/google';
+import Line from '@/svg/line1.svg'; // ✅ Use default import for SVGR
 
 const orbitfont = Orbitron({
   subsets: ['latin'],
   weight: ['400', '700'],
   variable: '--font-orbit',
 });
-
-
 
 export default function Introduction() {
   return (
