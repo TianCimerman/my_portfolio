@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-
+import { ReactComponent as Line } from '@/svg/line1.svg';
 import { Orbitron } from 'next/font/google';
 
 
@@ -50,7 +50,7 @@ export default function Introduction() {
           I’m a student who enjoys creating and learning through personal projects.
         </p>
 
-        <Line className="w-8 md:w-7 h-auto  relative top-10 sm:mr-200 hidden md:block" />
+        <Line className="w-8 md:w-7 h-auto relative top-10 hidden md:block" />
 
       </div>
 
