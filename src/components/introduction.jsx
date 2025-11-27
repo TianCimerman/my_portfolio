@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Orbitron } from 'next/font/google';
-import Line from '@/svg/line1.svg'; // ✅ Use default import for SVGR
+
 
 const orbitfont = Orbitron({
   subsets: ['latin'],
@@ -48,7 +48,7 @@ export default function Introduction() {
           I’m a student who enjoys creating and learning through personal projects.
         </p>
 
-        <Line className="w-8 md:w-7 h-auto relative top-10 hidden md:block" />
+        <img src="/svg/line1.svg" alt="Line" className="w-8 h-auto" />
 
       </div>
 
