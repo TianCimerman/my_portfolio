@@ -15,9 +15,7 @@ export default function HomePage() {
     <ClientVantaWrapper>
       <Header></Header>
       <Introduction></Introduction>
-      <Introduction2></Introduction2>
-      <Projects></Projects>
-      <Contact></Contact>
+
 
     </ClientVantaWrapper>
   );
