@@ -10,7 +10,7 @@ const orbitfont = Orbitron({
   variable: '--font-orbit',
 });
 
-const Line = () => <div>Line</div>;
+
 
 export default function Introduction() {
   return (
