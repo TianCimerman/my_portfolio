@@ -14,10 +14,7 @@ export default function HomePage() {
     // 1. Wrap your entire page content with the Client Wrapper
     <ClientVantaWrapper>
       <Header></Header>
-      <Introduction></Introduction>
-      <Introduction2></Introduction2>
-      <Projects></Projects>
-      <Contact></Contact>
+
 
     </ClientVantaWrapper>
   );
